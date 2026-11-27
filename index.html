@@ -1,207 +1,466 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>LearnPython</title>
+
+    <title>CodeLibrary | Computer Science Learning</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="siteHeader">
-        <nav>
-           <a href="" class="logo">LearnPython</a> 
-           <ul class="navLinks">
-                <li><a href="">Index</a></li>
-                <li><a href="">Latest Changes</a></li>
-                <li><a href="">About</a></li>
-           </ul>
+
+    <!-- Header -->
+    <header class="mainHeader">
+
+        <nav class="navBar">
+
+            <a href="#" class="logo">CodeLibrary.</a>
+
+            <ul class="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#" class="loginButton">Login</a>
+
         </nav>
+
     </header>
 
+
+    <!-- Main Content -->
     <main>
 
-        <div class="introduction">
-            <section class="heroSection">
-                <h1 class="heading">Learn Python – From Beginner to Pro</h1>
-                <h2 class="subHeading">Welcome to Python Academy</h2>
+        <!-- Hero Section -->
+        <section class="heroSection">
 
-                <b>Your journey into the world of programming starts here!</b>
-                <p>Learn Python step by step with easy lessons, practical examples, coding challenges, and real-world projects. Whether you're a complete beginner or looking to improve your coding skills, we've got you covered.</p>
+            <div class="heroContent">
 
-                <button>Start learning</button>
-                <button>Explore</button>
-            </section>
-
-            <section class="videoSection">
-                <video>
-                    <source src="./assets/FULLstackdemo.mp4" type=".mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </section>
-        </div>
-
-        <div class="whyLearn">
-
-            <article class="shortDesc">
-                <h3>Why learn python ?</h3>
-                <p>Python is one of the world's most popular programming languages. It is simple to learn, powerful, and used in many exciting fields.</p>
-            </article>
-
-            <section class="gallery">
-
-                <article class="card">
-                    <div>
-                        <h4 class="cardTitle">Easy to Learn</h4>
-                        <p class="cardDesc">Simple syntax that's perfect for beginners.</p>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div>
-                        <h4 class="cardTitle">AI & Machine Learning </h4>
-                        <p class="cardDesc">Build intelligent applications.</p>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div>
-                        <h4 class="cardTitle">Web-Development</h4>
-                        <p class="cardDesc">Create websites and web applications.</p>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div>
-                        <h4 class="cardTitle">Data Science</h4>
-                        <p class="cardDesc">Analyze data and discover insights.</p>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div>
-                        <h4 class="cardTitle">Automation</h4>
-                        <p class="cardDesc">Make repetitive tasks easier with code.</p>
-                    </div>
-                </article>
-
-            </section>
-        </div>
-
-        <section class="gettingStarted">
-            <h2 class="startedTitle">Getting Started With Python</h2>
-            <p class="startedIntr">  Before learning Python, let's set up your environment and write your first Python program.</p>
-
-            <article class="installationProcess">
-                <h3>Install Python</h3>
-                <p>First, download Python from the official website.</p>        
-                <b><a href="">Download</a></b>
-                <p>After installing Python, open your terminal or command prompt and type:</p>
-                <pre><code>python --version</code></pre>     
-                 <p>
-                    If Python is installed correctly, you should see its version number.
-                </p>  
-            </article>
-
-            <article class="helloWorld">
-                <h3>Write Your First Python Program</h3>
-                <p> Now let's write our first Python program. You can use any text editor or Python IDE.</p>
-                <pre><code>print("Hello, World!")</code></pre>
-                <p>  Save your file as <strong>hello.py</strong>. Open your terminal in the file's directory and run:</p>
-                <pre><code>python hello.py</code></pre>
-                <p>Output</p>
-                <pre><code>Hello, World!</code></pre>
-                <p class="successMessage">
-                    Congratulations! You have successfully written and executed your first Python program.
+                <p class="smallHeading">
+                    STUDENT LEARNING RESOURCE PLATFORM
                 </p>
-            </article>
+
+                <h1>
+                    Learn Computer Science.
+                    Build Your Future.
+                </h1>
+
+                <p class="heroDescription">
+                    Explore study materials, programming tutorials,
+                    lecture notes and practical resources to improve
+                    your computer science knowledge.
+                </p>
+
+                <div class="heroButtons">
+                    <a href="#resources" class="primaryButton">
+                        Explore Resources
+                    </a>
+
+                    <a href="#about" class="secondaryButton">
+                        Learn More
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="heroImage">
+
+                <img
+                    src="./images/welcomPic.png"
+                    alt="Student learning computer programming"
+                >
+
+            </div>
+
         </section>
 
-        <div class="index">
-                <h2 class="indexHeading">Python Tutorial Index</h2>
-                <p class="indexIntro">
-                    Explore our Python tutorials and learn programming step by step, from basic concepts to real-world projects.
+
+        <!-- Resource Categories -->
+        <section class="resourceSection" id="resources">
+
+            <div class="sectionHeader">
+
+                <div>
+                    <p class="smallHeading">EXPLORE SUBJECTS</p>
+                    <h2>Learning Resources</h2>
+                </div>
+
+                <a href="#" class="viewLink">View All Resources →</a>
+
+            </div>
+
+
+            <div class="resourceGrid">
+
+                <article class="resourceCard">
+
+                    <img
+                        src="./images/pythonImage.jpg"
+                        alt="Programming on a computer"
+                    >
+
+                    <div class="cardContent">
+
+                        <h3>Programming</h3>
+
+                        <p>
+                            Learn programming languages such as C,
+                            C++, Java and Python.
+                        </p>
+
+                        <a href="#">Explore Resources →</a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="resourceCard">
+
+                    <img
+                        src="./images/dataBase.jpg"
+                        alt="Database management study"
+                    >
+
+                    <div class="cardContent">
+
+                        <h3>Database Management</h3>
+
+                        <p>
+                            Understand DBMS, SQL, data models
+                            and database concepts.
+                        </p>
+
+                        <a href="#">Explore Resources →</a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="resourceCard">
+
+                    <img
+                        src="./images/networking.jpg"
+                        alt="Computer networking equipment"
+                    >
+
+                    <div class="cardContent">
+
+                        <h3>Computer Networking</h3>
+
+                        <p>
+                            Study network protocols, architecture
+                            and communication systems.
+                        </p>
+
+                        <a href="#">Explore Resources →</a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="resourceCard">
+
+                    <img
+                        src="./images/webDev.jpg"
+                        alt="Web development workspace"
+                    >
+
+                    <div class="cardContent">
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Learn HTML, CSS, JavaScript
+                            and website development.
+                        </p>
+
+                        <a href="#">Explore Resources →</a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Popular Courses -->
+        <section class="courseSection" id="courses">
+
+            <div class="sectionHeader">
+
+                <div>
+                    <p class="smallHeading">START LEARNING</p>
+                    <h2>Popular Study Materials</h2>
+                </div>
+
+                <a href="#" class="viewLink">View All →</a>
+
+            </div>
+
+
+            <div class="courseGrid">
+
+                <article class="courseCard">
+
+                    <div class="courseInfo">
+                        <span class="courseCategory">PROGRAMMING</span>
+                        <h3>Introduction to C Programming</h3>
+
+                        <p>
+                            Understand variables, loops, functions,
+                            arrays and basic programming concepts.
+                        </p>
+
+                        <div class="courseFooter">
+                            <span>Beginner</span>
+                            <a href="#">Read Notes →</a>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="courseCard">
+
+                    <div class="courseInfo">
+                        <span class="courseCategory">DATABASE</span>
+                        <h3>Database Management System</h3>
+
+                        <p>
+                            Learn database architecture, SQL,
+                            normalization and ER diagrams.
+                        </p>
+
+                        <div class="courseFooter">
+                            <span>Intermediate</span>
+                            <a href="#">Read Notes →</a>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="courseCard">
+
+                    <div class="courseInfo">
+                        <span class="courseCategory">WEB DEVELOPMENT</span>
+                        <h3>HTML and CSS Fundamentals</h3>
+
+                        <p>
+                            Learn how to structure and style
+                            websites using HTML and CSS.
+                        </p>
+
+                        <div class="courseFooter">
+                            <span>Beginner</span>
+                            <a href="#">Read Notes →</a>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Video Tutorials -->
+        <section class="videoSection" id="videos">
+
+            <div class="sectionHeader">
+
+                <div>
+                    <p class="smallHeading">WATCH AND LEARN</p>
+                    <h2>Video Tutorials</h2>
+                </div>
+
+            </div>
+
+
+            <article class="videoCard">
+
+                <div class="videoContent">
+
+                    <h3>Learn Programming Through Videos</h3>
+
+                    <p>
+                        Improve your understanding through
+                        practical demonstrations and video lessons.
+                    </p>
+
+                    <a href="#" class="primaryButton">
+                        Explore Videos
+                    </a>
+
+                </div>
+
+
+                <div class="videoPlayer">
+
+                    <video autoplay muted loop>
+
+                        <source
+                            src="./videos/FULLstackdemo.mp4"
+                            type="video/mp4"
+                        >
+
+                        Your browser does not support video playback.
+
+                    </video>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- Latest Resources -->
+        <section class="latestSection">
+
+            <div class="sectionHeader">
+
+                <div>
+                    <p class="smallHeading">RECENTLY ADDED</p>
+                    <h2>Latest Resources</h2>
+                </div>
+
+                <a href="#" class="viewLink">View All →</a>
+
+            </div>
+
+
+            <div class="latestList">
+
+                <article class="latestItem">
+
+                    <div class="fileIcon">PDF</div>
+
+                    <div class="latestInfo">
+                        <h3>Data Structures and Algorithms</h3>
+                        <p>Programming · PDF Notes</p>
+                    </div>
+
+                    <a href="#">Download →</a>
+
+                </article>
+
+
+                <article class="latestItem">
+
+                    <div class="fileIcon">PDF</div>
+
+                    <div class="latestInfo">
+                        <h3>Operating System Fundamentals</h3>
+                        <p>Operating Systems · PDF Notes</p>
+                    </div>
+
+                    <a href="#">Download →</a>
+
+                </article>
+
+
+                <article class="latestItem">
+
+                    <div class="fileIcon">PDF</div>
+
+                    <div class="latestInfo">
+                        <h3>Computer Network Architecture</h3>
+                        <p>Networking · PDF Notes</p>
+                    </div>
+
+                    <a href="#">Download →</a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="aboutSection" id="about">
+
+            <div class="aboutContent">
+
+                <p class="smallHeading">ABOUT OUR PLATFORM</p>
+
+                <h2>Knowledge Should Be Accessible to Every Student.</h2>
+
+                <p>
+                    CodeLibrary is a student learning resource platform
+                    designed to make computer science education easier
+                    and more accessible. Students can find useful
+                    academic materials, tutorials, notes and
+                    programming resources in one place.
                 </p>
 
-            <section class="indexBox">
+                <a href="#" class="primaryButton">
+                    Learn About Us
+                </a>
 
-                <article class="indexItem">
-                    <span class="indexNo">1</span>
-                    <div>
-                        <h4 class="indexTitle">
-                            <a href="#">Python Fundamentals</a>
-                        </h4>
-                        <p class="indexDesc">Understand variables, data types, operators, and basic syntax.</p>
-                    </div>
-                </article>
+            </div>
 
-                <article class="indexItem">
-                    <span class="indexNo">2</span>
-                    <div>
-                        <h4 class="indexTitle">
-                            <a href="#">Conditions & Loops</a>
-                        </h4>
-                        <p class="indexDesc">Learn how to make decisions and repeat actions using Python.</p>
-                    </div>
-                </article>
+        </section>
 
-                <article class="indexItem">
-                    <span class="indexNo">3</span>
-                    <div>
-                        <h4 class="indexTitle">
-                            <a href="#">Functions</a>
-                        </h4>
-                        <p class="indexDesc">Write reusable code and organize your programs.</p>
-                    </div>
-                </article>
-
-                <article class="indexItem">
-                    <span class="indexNo">4</span>
-                    <div>
-                        <h4 class="indexTitle">
-                            <a href="#">Data Structures</a>
-                        </h4>
-                        <p class="indexDesc">Explore lists, tuples, dictionaries, and sets.</p>
-                    </div>
-                </article>
-
-                <article class="indexItem">
-                    <span class="indexNo">5</span>
-                    <div>
-                        <h4 class="indexTitle">
-                            <a href="#">Object-Oriented Programming</a>
-                        </h4>
-                        <p class="indexDesc">Learn classes, objects, inheritance, and more.</p>
-                    </div>
-                </article>
-
-                <article class="indexItem">
-                    <span class="indexNo">6</span>
-                    <div>
-                        <h4 class="indexTitle">
-                            <a href="#">Real-World Projects</a>
-                        </h4>
-                        <p class="indexDesc">Apply your knowledge by building useful Python applications.</p>
-                    </div>
-                </article>
-
-            </section>
-        </div>
     </main>
 
-    <footer class="siteFooter">
-        <div class="footContent">
-            <div class="footerAbout">
-                <h2>Learn Python</h2>
+
+    <!-- Footer -->
+    <footer class="mainFooter">
+
+        <div class="footerContent">
+
+            <div>
+                <h2>CodeLibrary.</h2>
+
                 <p>
-                    A beginner-friendly platform to learn Python programming step by step with examples, tutorials, and practical projects.
+                    A learning resource platform for
+                    computer science students.
                 </p>
             </div>
+
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>Email: info@codelibrary.com</p>
+                <p>Computer Science Learning Platform</p>
+            </div>
+
         </div>
-        <div class="tradeMark">
-            <p>&copy; 2026 LearnPython. All Rights Reserved.</p>
-            <p>Made for Python learners.</p>
+
+
+        <div class="footerBottom">
+            <p>© 2026 CodeLibrary. All Rights Reserved.</p>
         </div>
+
     </footer>
 
 </body>
+
 </html>
